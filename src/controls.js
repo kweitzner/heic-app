@@ -13,7 +13,7 @@ const RESULTS_OPTIONS = [
 ];
 
 export default ({ events, menu, storage }) => {
-  let DEFAULT_EXPORT_QUALITY = storage.get('export-quality') || QUALITY_OPTIONS[2];
+  let DEFAULT_EXPORT_QUALITY = storage.get('export-quality') || QUALITY_OPTIONS[1];
   let DEFAULT_RESULT = storage.get('result-action') || RESULTS_OPTIONS[0];
   let DEFAULT_THEME = storage.get('theme') || 'auto';
   let deferredPrompt;
